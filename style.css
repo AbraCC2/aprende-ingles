@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.controles {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.frase {
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.opciones button {
+  font-size: 1rem;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #eee;
+  transition: 0.2s;
+}
+.opciones button:hover {
+  background: #ddd;
+}
+.resultado, .puntaje {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+.favorito-control {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.favorito-control button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.acciones {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.acciones button {
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <title>Aprende Inglés</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Aprende Inglés">
+  <link rel="apple-touch-icon" href="icono.png">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <h1>Aprende Inglés Básico</h1>
+    <div class="controles">
+      <label for="modo">Modo:</label>
+      <select id="modo">
+        <option value="en-es">Inglés ➝ Español</option>
+        <option value="es-en">Español ➝ Inglés</option>
+      </select>
+      <label for="nivel">Nivel:</label>
+      <select id="nivel">
+        <option value="facil">Fácil</option>
+        <option value="intermedio">Intermedio</option>
+        <option value="dificil">Difícil</option>
+      </select>
+    </div>
+    <div id="frase" class="frase">Cargando...</div>
+    <div class="acciones">
+      <button id="repetirBtn">🔁 Repetir frase</button>
+      <button id="hablarBtn">🎤 Hablar ahora</button>
+    </div>
+    <div id="opciones" class="opciones"></div>
+    <div id="resultado" class="resultado"></div>
+    <div id="puntaje" class="puntaje"></div>
+    <div class="favorito-control">
+      <button id="favoritoBtn">⭐ Marcar como favorita</button>
+      <button id="verFavoritasBtn">📚 Ver frases favoritas</button>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
